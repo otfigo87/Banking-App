@@ -5,6 +5,7 @@ import Logo from '../components/logo';
 import Button from '../components/button';
 import DownArrow from '../components/downArrow';
 import NavBar from "../components/navBar";
+import { scroller, Element } from 'react-scroll';
 
 
 const TopContainer = styled.div`
@@ -38,9 +39,13 @@ left: 50%;
 transform: translateX(-50%);
 `;
 
+const scrollToNextSection = () => {
+  scroller.scrollTo("servicesSection", {smooth: true, duration: 1500});
+}
+
 function TopSection(props){
     return (
-      <div>
+      <Element name="topSection">
         <TopContainer>
           <NavBar/>
           <Logo />
@@ -49,11 +54,11 @@ function TopSection(props){
             way, because a bank should never come between you and your money.
           </WelcomeText>
           <Button>Free Account</Button>
-          <DownArrowContainer>
+          <DownArrowContainer onClick={scrollToNextSection}>
             <DownArrow />
           </DownArrowContainer>
         </TopContainer>
-      </div>
+      </Element>
     );
 }
 
