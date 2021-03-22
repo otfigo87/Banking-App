@@ -35,6 +35,7 @@ const AccessibilityContainer = styled.div`
   padding-left: 10px;
   color: #fff;
   justify-content: space-between;
+
   @media screen and (max-width: 480px) {
     width: 90%;
     padding-left: 8px;
@@ -57,6 +58,7 @@ const SocialIcon = styled.div`
   cursor: pointer;
   &:not(:last-of-type) {
     margin-right: 11px;
+    
     @media screen and (max-width: 480px) {
       margin-right: 9px;
     }

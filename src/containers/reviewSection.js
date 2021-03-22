@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 import SectionTitle from "../components/sectionTitle";
 import { CarouselProvider, DotGroup, Slide, Slider } from "pure-react-carousel";
 import ReviewCard from "../components/reviewCard";
+import { useMediaQuery } from "react-responsive";
 
 import "pure-react-carousel/dist/react-carousel.es.css";
 
@@ -23,6 +24,7 @@ const ReviewsContainer = styled(Element)`
 
 const StyledCarouselProvider = styled(CarouselProvider)`
   width: 70%;
+
   @media screen and (max-width: 480px) {
     width: 100%;
   }
@@ -56,14 +58,16 @@ const StyledDotGroup = styled(DotGroup)`
 `;
 
 function ReviewsSection(props) {
+  const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
+
   return (
     <ReviewsContainer>
       <SectionTitle>What people are saying about us</SectionTitle>
       <StyledCarouselProvider
         naturalSlideWidth={200}
-        naturalSlideHeight={250}
+        naturalSlideHeight={isMobile ? 250 : 205}
         totalSlides={4}
-        visibleSlides={2}
+        visibleSlides={isMobile ? 1 : 2}
       >
         <Slider>
           <StyledSlide index={0}>

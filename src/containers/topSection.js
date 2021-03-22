@@ -27,7 +27,7 @@ const WelcomeText = styled.h1`
   font-size: 26px;
   font-weght: bold;
   color: #bff5ef;
-  margin: 2em;
+  margin: 1em;
   text-align: center;
   line-height: 1.2;
 `;

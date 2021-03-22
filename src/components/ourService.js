@@ -7,6 +7,7 @@ const ServiceContainer = styled.div`
   flex-direction: ${({ isReversed }) => isReversed && "row-reverse"};
   margin-bottom: 4em;
   flex-wrap: wrap-reverse;
+
   @media screen and (max-width: 480px) {
     justify-content: center;
   }
@@ -16,6 +17,7 @@ const ServiceImg = styled.img`
   width: 20em;
   height: 15em;
   border-radius: 30px;
+  
   @media screen and (max-width: 480px) {
     width: 18em;
     height: 13em;
@@ -27,6 +29,7 @@ const DescriptionContainer = styled.div`
   flex-direction: column;
   align-items: center;
   max-width: 60%;
+
   @media screen and (max-width: 480px) {
     max-width: 100%;
   }
@@ -37,6 +40,7 @@ const Title = styled.h2`
   font-size: 28px;
   font-weight: 700;
   margin: 5px 0;
+
   @media screen and (max-width: 480px) {
     margin-top: 1.5em;
   }
@@ -47,6 +51,7 @@ const Details = styled.p`
   font-size: 21px;
   text-align: center;
   max-width: 55%;
+  
   @media screen and (max-width: 480px) {
     width: 100%;
   }

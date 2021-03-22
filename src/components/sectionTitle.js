@@ -5,6 +5,7 @@ const SectionTitle = styled.h1`
   font-weight: bold;
   color: #bff5ef;
   margin-bottom: 50px;
+  
   @media screen and (max-width: 480px) {
     text-align: center;
   }
