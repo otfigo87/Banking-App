@@ -4,8 +4,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  width: 350px;
-  height: 430px;
+  width: 300px;
+  height: 440px;
   background-color: #fff;
   box-shadow: 0px 0px 7px rgba(17, 17, 17, 0.2);
   border-radius: 3px;
@@ -16,24 +16,26 @@ const CardContainer = styled.div`
 
 const QuoteIcon = styled.div`
 position: absolute;
-top: 13px;
+top: 13px; 
 left: 17px;
 color: grey;
 font-size: 40px;
 `;
 
 const ReviewText = styled.p`
-  font-size: 17px;
+  font-size: 20px;
   color: #585858;
   font-weight: normal;
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 `;
 
 const Line = styled.span`
   min-width: 100%;
   min-height: 1px;
   margin-bottom: 1em;
+  margin-top: 140px;
   background-color: #cdcdcd;
   display: flex;
 `;
@@ -51,7 +53,7 @@ const UserImg = styled.img`
 `;
 
 const Username = styled.span`
-  font-size: 15px;
+  font-size: 18px;
   color: #000;
 `;
 

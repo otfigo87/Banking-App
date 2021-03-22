@@ -18,6 +18,7 @@ const ReviewsContainer = styled(Element)`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #1f1f1f;
 `;
 
 const StyledCarouselProvider = styled(CarouselProvider)`
@@ -42,7 +43,7 @@ const StyledDotGroup = styled(DotGroup)`
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background-color: #e4e4e4;
+    background-color: ;
     border: none;
     outline: none;
     &:not(:last-of-type) {
@@ -50,7 +51,7 @@ const StyledDotGroup = styled(DotGroup)`
     }
   }
   .carousel__dot--selected {
-    background-color: #c4c4c4;
+    background-color: grey;
   }
 `;
 
@@ -65,34 +66,34 @@ function ReviewsSection(props) {
         visibleSlides={2}
       >
         <Slider>
-          <Slide index={0}>
-            <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
-              username="John Adam"
-              userImgUrl={User2Img}
-            />
-          </Slide>
-          <Slide index={1}>
-            <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
-              username="John Adam"
-              userImgUrl={User1Img}
-            />
-          </Slide>
-          <Slide index={2}>
+          <StyledSlide index={0}>
             <ReviewCard
               reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
               username="John Adam"
               userImgUrl={User3Img}
             />
-          </Slide>
-          <Slide index={3}>
+          </StyledSlide>
+          <StyledSlide index={1}>
+            <ReviewCard
+              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              username="John Adam"
+              userImgUrl={User1Img}
+            />
+          </StyledSlide>
+          <StyledSlide index={2}>
+            <ReviewCard
+              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              username="John Adam"
+              userImgUrl={User2Img}
+            />
+          </StyledSlide>
+          <StyledSlide index={3}>
             <ReviewCard
               reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
               username="John Adam"
               userImgUrl={User4Img}
             />
-          </Slide>
+          </StyledSlide>
         </Slider>
         <StyledDotGroup />
       </StyledCarouselProvider>
