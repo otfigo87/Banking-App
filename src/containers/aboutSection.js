@@ -25,7 +25,7 @@ const AboutDiv = styled.div`
 
   @media screen and (max-width: 480px) {
     max-width: 100%;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 `;
 

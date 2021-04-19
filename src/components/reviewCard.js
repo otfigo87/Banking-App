@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const CardContainer = styled.div`
   width: 300px;
-  height: 440px;
+  height: 500px;
   background-color: #fff;
   box-shadow: 0px 0px 7px rgba(17, 17, 17, 0.2);
   border-radius: 3px;
@@ -23,7 +23,7 @@ font-size: 40px;
 `;
 
 const ReviewText = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   color: #585858;
   font-weight: normal;
   display: flex;
@@ -35,7 +35,7 @@ const Line = styled.span`
   min-width: 100%;
   min-height: 1px;
   margin-bottom: 1em;
-  margin-top: 140px;
+  margin-top: 5em;
   background-color: #cdcdcd;
   display: flex;
 `;

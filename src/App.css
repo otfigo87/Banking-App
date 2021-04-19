@@ -1,0 +1,4 @@
+.my-modal {
+background: rgb(20,20,31);
+background: linear-gradient(90deg, rgba(20,20,31,1) 53%, rgba(5,246,239,1) 100%, rgba(0,212,255,1) 100%);
+}

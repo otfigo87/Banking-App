@@ -106,7 +106,7 @@ function Footer(props) {
       <MotivationalText>
         The path to financial wellness starts here.
       </MotivationalText>
-      <Button>Open Your Free Account </Button>
+      <Button>Start Your Free Account </Button>
       <AccessibilityContainer>
         <PrivacyContainer>
           <Link>Privacy Policy</Link>

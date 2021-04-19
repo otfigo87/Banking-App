@@ -17,7 +17,7 @@ const ServiceImg = styled.img`
   width: 20em;
   height: 15em;
   border-radius: 30px;
-  
+
   @media screen and (max-width: 480px) {
     width: 18em;
     height: 13em;
@@ -36,10 +36,13 @@ const DescriptionContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  color: #000;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
   font-size: 28px;
   font-weight: 700;
   margin: 5px 0;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
     margin-top: 1.5em;
@@ -57,7 +60,7 @@ const Details = styled.p`
   }
 `;
 
-function OurSerivce(props) {
+function OurService(props) {
   const { imgUrl, title, description, isReversed } = props;
 
   return (
@@ -71,4 +74,4 @@ function OurSerivce(props) {
   );
 }
 
-export default OurSerivce;
+export default OurService;

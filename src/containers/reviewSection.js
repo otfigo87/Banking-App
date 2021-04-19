@@ -72,28 +72,28 @@ function ReviewsSection(props) {
         <Slider>
           <StyledSlide index={0}>
             <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              reviewText="I must admit I use it almost as a secondary bank. There savings account offers very competitive rate, You also can't go wrong with the no fee checking. "
               username="John Adam"
               userImgUrl={User3Img}
             />
           </StyledSlide>
           <StyledSlide index={1}>
             <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              reviewText="I very much enjoyed working with DollaBank and the team - they have an excellent grasp of their subject, and have created something great for us."
               username="John Adam"
               userImgUrl={User1Img}
             />
           </StyledSlide>
           <StyledSlide index={2}>
             <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              reviewText="I very much enjoyed working with DollaBankand the team - they have an excellent grasp of their subject, and have created something great for us."
               username="John Adam"
               userImgUrl={User2Img}
             />
           </StyledSlide>
           <StyledSlide index={3}>
             <ReviewCard
-              reviewText="I very much enjoyed working with Beema and the team - they have an excellent grasp of their subject, and have created something great for us."
+              reviewText="I very much enjoyed working with DollaBank and the team - they have an excellent grasp of their subject, and have created something great for us."
               username="John Adam"
               userImgUrl={User4Img}
             />

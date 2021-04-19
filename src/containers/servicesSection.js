@@ -15,7 +15,7 @@ const ServicesContainer = styled(Element)`
   flex-direction: column;
   align-items: center;
   padding: 10px 0;
-  
+  background-color: #1f1f1f;
 `;
 
 function ServicesSection(props){
