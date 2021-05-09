@@ -115,13 +115,13 @@ function Footer(props) {
         </PrivacyContainer>
         <SocialContainer>
           <SocialIcon>
-            <FontAwesomeIcon icon={faTwitter} />
+            <a href="www.twitter.com"><FontAwesomeIcon icon={faTwitter}/></a>
           </SocialIcon>
           <SocialIcon>
-            <FontAwesomeIcon icon={faLinkedin} />
+            <a href="www.linkedin.com"><FontAwesomeIcon icon={faLinkedin}/></a>
           </SocialIcon>
           <SocialIcon>
-            <FontAwesomeIcon icon={faFacebook} />
+            <a href="www.facebook.com"><FontAwesomeIcon icon={faFacebook}/></a>
           </SocialIcon>
         </SocialContainer>
       </AccessibilityContainer>
